@@ -5,10 +5,8 @@ import Home from './App/Pages/Home'
 
 export default function App() {
   return (
-    <View>
+    <View style={{padding:20}}>
       <Home/>
-      {/* <Text>Test Home</Text> */}
-      <StatusBar style="auto" />
     </View>
   );
 }
