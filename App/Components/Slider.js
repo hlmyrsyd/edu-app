@@ -10,7 +10,7 @@ const data = [
 
 const Slider = () => {
     const renderItem = ({ item }) => (
-        <View style={{marginTop:10}}>
+        <View style={{marginTop:5}}>
             <Image source={item.image}
             style={{width:Dimensions.get('screen').width*0.9, height:400,}}/>
         </View>

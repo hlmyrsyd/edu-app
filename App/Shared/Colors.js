@@ -1,3 +1,4 @@
 export default{
-    primary:'#FBD119'
+    primary:'#FBD119',
+    grey:'#999999'
 }
