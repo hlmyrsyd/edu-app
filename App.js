@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Login from './App/Pages/Login';
 import Home from './App/Pages/Home'
 
-export default function App() {
+const App = () => {
   return (
     <View style={{padding:20}}>
       <Home/>
@@ -19,3 +19,5 @@ export default function App() {
 //     justifyContent: 'center',
 //   },
 // });
+
+export default App

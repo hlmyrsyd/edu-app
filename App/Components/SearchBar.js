@@ -2,7 +2,7 @@ import { View, Text, TextInput } from 'react-native'
 import React from 'react'
 import { Ionicons } from '@expo/vector-icons';
 
-export default function SearchBar() {
+const SearchBar = () => {
     return (
         <View style={{
             display:'flex',
@@ -19,3 +19,5 @@ export default function SearchBar() {
         </View>
     )
 }
+
+export default SearchBar

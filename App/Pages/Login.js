@@ -3,7 +3,7 @@ import React from 'react'
 import Colors from '../Shared/Colors'
 import { AntDesign } from '@expo/vector-icons';
 
-export default function Login() {
+const Login = () => {
     return (
         <View style={{margin:15}}>
             <Image source={require('./../Assets/Login-page.png')} style={{ width:'100%'}}/>
@@ -58,3 +58,5 @@ export default function Login() {
         </View>
     )
 }
+
+export default Login

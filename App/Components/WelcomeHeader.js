@@ -1,7 +1,8 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 
-export default function WelcomeHeader() {
+
+const WelcomeHeader = () => {
     return (
         <View style={{display:'flex',
         flexDirection:'row',
@@ -16,3 +17,5 @@ export default function WelcomeHeader() {
         </View>
     )   
 }
+
+export default WelcomeHeader
