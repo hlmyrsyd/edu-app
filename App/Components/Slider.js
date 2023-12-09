@@ -18,14 +18,14 @@ const Slider = () => {
 
     return (
         <View>
-        <FlatList
-            data={data}
-            renderItem={renderItem}
-            keyExtractor={(item) => item.id}
-            horizontal
-            pagingEnabled
-            showsHorizontalScrollIndicator={false}
-        />
+            <FlatList
+                data={data}
+                renderItem={renderItem}
+                keyExtractor={(item) => item.id}
+                horizontal
+                pagingEnabled
+                showsHorizontalScrollIndicator={false}
+            />
         </View>
     );
 };
